@@ -34,6 +34,20 @@ export default {
     },
     fontFamily: {
       sans: ['Montserrat', 'sans-serif']
+    },
+    boxShadow: {
+      'shadow-1': '0px 2px 4px 0px #00000033',
+      'shadow-2': '0px 5px 10px 0px #0000000D',
+      'shadow-3': '0px 5px 10px 0px #00000033',
+      'shadow-4': '0px 10px 20px 0px #0000001A',
+    },
+    borderRadius: {
+      "--radius-small": "8px",
+      "--radius-medium": "12px",
+      "--radius-large": "16px",
+      "--radius-extra-large": "32px",
+      "--radius-full": "1000px",
+      "--radius-circle": "50%",
     }
   },
   plugins: [],
