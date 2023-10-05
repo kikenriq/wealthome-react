@@ -3,17 +3,17 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='w-screen px-5 h-screen bg-gradient-to-l from-[#0F4392] to-[#001D3D]'>
-        <img className='absolute h-full object-cover ' src="/images/bg-pattern.png" alt="" />
+    <div className=' w-screen px-5 h-screen bg-gradient-to-l from-[#0F4392] to-[#001D3D]'>
+        <img className='relative h-screen object-cover ' src="/images/bg-pattern.png" alt="" />
 
-        <div className='relative pt-[130px] text-white flex flex-col gap-8'>
+        <div className=' pt-[130px] text-white flex flex-col gap-8'>
             <h1 className=' font-bold text-[28px]'>Find a place where you can be yourself.</h1>
             <p className='text-[12px] leading-8'>If your are looking for a place where you can be yourself, dont't give up.
                 Keep searching until you find a place that feels like home.
             </p>
         </div>
 
-        <form action="./" className='relative grid p-2 mt-8 rounded-3xl gap-2 bg-neutral-100 z-10'>
+        <form action="./" className=' grid p-2 mt-8 -rounded--radius-large gap-2 bg-neutral-100 z-10'>
 
             <label htmlFor="" className='relative rounded-2xl hover:bg-neutral-95'>
                 <span className='absolute top-[12px] left-[16px] font-semibold text-neutral-5'>Want to</span>
@@ -50,7 +50,7 @@ const Hero = () => {
                 <span class="material-symbols-rounded top-1/2 absolute right-4 text-primary-100" aria-hidden="true">location_on</span>
             </label>
 
-            <button type="submit" className='flex justify-center gap-2 px-6 items-center rounded-xl h-24 bg-primary-100 hover:to-primary-80 text-neutral-100' >
+            <button type="submit" className='flex justify-center gap-2 px-6 items-center -rounded--radius-medium h-24 bg-primary-100 hover:to-primary-80 text-neutral-100' >
                 <span class="material-symbols-rounded" aria-hidden="true">search</span>
 
                 <span className='text-white'>Search</span>
@@ -58,7 +58,6 @@ const Hero = () => {
 
         </form>
 
-        
     </div>
   )
 }
