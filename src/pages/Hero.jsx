@@ -3,10 +3,10 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className=' w-screen px-5 h-screen bg-gradient-to-l from-[#0F4392] to-[#001D3D]'>
-        <img className='relative h-screen object-cover ' src="/images/bg-pattern.png" alt="" />
+    <div className="w-screen h-screen bg-gradient-to-l from-[#0F4392] to-[#001D3D]">
+        <div className="bg-[url('/images/bg-pattern.png')] px-5 h-screen w-screen">
 
-        <div className=' pt-[130px] text-white flex flex-col gap-8'>
+        <div className=' text-white pt-52 flex flex-col gap-8'>
             <h1 className=' font-bold text-[28px]'>Find a place where you can be yourself.</h1>
             <p className='text-[12px] leading-8'>If your are looking for a place where you can be yourself, dont't give up.
                 Keep searching until you find a place that feels like home.
@@ -57,7 +57,7 @@ const Hero = () => {
             </button>
 
         </form>
-
+        </div>
     </div>
   )
 }

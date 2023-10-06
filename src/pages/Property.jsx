@@ -12,14 +12,14 @@ import property8 from '../../public/images/property-8.jpg'
 const Property = () => {
   return (
     <div className='px-5 pt-10'>
-        <div>
+        <div className='flex flex-col gap-5 mb-7'>
             <h1 className='text-[28px] font-bold'>Best home in your city</h1>
-            <p>Lorem ipsum dolor sit amet consectetur. 
+            <p className=' text-2xl text-neutral-40'>Lorem ipsum dolor sit amet consectetur. 
                 In quisque scelerisque eget id facilisis. Aliquam in libero egestas at.
             </p>
         </div>
-        <button className='flex items-center px-12 py-8 -rounded--radius-full border-primary-100 text-primary-100'>
-             <h1>Explore more</h1> 
+        <button className='flex items-center gap-2 px-10 py-6 -rounded--radius-full border-2 hover:bg-primary-100 hover:text-white transition-all border-primary-100 text-primary-100'>
+             <h1 className=' '>Explore more</h1> 
             <span class="material-symbols-rounded" aria-hidden="true">arrow_outward</span>
         </button>
 
